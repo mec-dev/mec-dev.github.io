@@ -1,0 +1,35 @@
+
+# Syntax highlighting
+markdown:            kramdown
+highlighter:         rouge
+
+# Permalinks
+permalink:           /:title
+
+# Setup
+timezone:            Asia/Kathmandu
+locale:              en_in
+name:				         MEC.dev
+title:               'MEC Developer Community'
+tagline:             'Building things for human progress'
+description:         'The Developer Community of Model Engineering College, Kochi'
+url:                 "https://mec.dev"
+rss:                 feed.xml
+baseurl:             '/'
+baseurl_posts_img:   '/assets/images/posts/'
+baseurl_featured_img: '/assets/images/hero/'
+baseurl_featured_thumbnail: '/assets/images/thumbnail/'
+baseurl_javascripts: '/assets/javascripts/'
+icon:                /assets/images/icon.png #[best 300px X 300px]
+
+# Server
+exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
+port:             	 9001
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "default"
