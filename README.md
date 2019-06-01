@@ -1,4 +1,4 @@
-# MED.dev
+# MEC.dev
 
 The Source for the MEC Developer Community Website
 
